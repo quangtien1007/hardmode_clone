@@ -118,9 +118,10 @@ h3{
     font-family: 'Mitr', sans-serif;
 }
 .footer_title{
+    text-align: center;
     padding-top: 50px;
     width: 1300px;
-    margin-left: 380px;
+    margin-left: auto;
     margin-right: auto;
     display: flex;
 }
@@ -129,6 +130,7 @@ h3{
     margin-right: 135px;
 }
 .footer_contact{
+    dispkay: flex;
     height: 420px;
     background-color: #d2f1f8;
 }
