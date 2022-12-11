@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Mitr:wght@500&display=swap');
+body{
+    font-family: 'Mitr', sans-serif;
+    margin: 0 0;
+}
+*{
+    font-family: 'Mitr', sans-serif;
+}
+.header{
+    background-color: #d2f1f8;
+    height: 93px;
+}
+.header_navbar{
+   display: flex ;
+   justify-content: space-around;
+}
+.navbar_items{
+    list-style: none;
+}
+.navbar_items-link{
+    display: inline-block;
+    padding-top: 1px;
+}
+.navbar_items-link a{
+    color:black;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6c94af;
+}
+.navbar_items-link a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2.5px solid white;
+}
+.container_product{
+    text-align: center;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: 'Mitr', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #139add;
+}
+.product-all{
+    display: flex;
+}
+.product-info{
+    list-style: none;
+}
+.product-detail-img{
+    width: 350px;
+    transition: 0.3s;
+}
+.product-detail-img:hover{
+    background-image: url('img/cacophony-truoc.webp');
+}
+.info-list{
+    display: inline-block;
+    margin: 15px;
+    margin-left: 0;
+}
+strong{
+    font-weight: 200;
+    text-decoration: line-through;
+    margin-right: 20px;
+    color: gray;
+}
+.hardmode-gif{
+    margin: 10px;
+    margin-left: 25px;
+    display: inline-block;
+}
+.left-gif{
+    margin-right: 15px;
+    width: 556px;
+    height: 556px;
+}
+.right-gif{
+    width: 556px;
+    height: 556px;
+}
+input[type="email"]{
+    width: 440px;
+    height: 44px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 40px ;
+    border-radius: 3px;
+    margin-bottom: 70px;
+}
+input[type="submit"]{
+    width: 120px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(58, 58, 58);
+}
+footer{
+    height: 400px;
+    background-color: #d2f1f8;
+    color:#6c94af;
+}
+h2{
+    font-size: 20px;
+    font-weight: 350;
+    font-family: 'Mitr', sans-serif;
+}
+h3{
+    font-size: 18px;
+    font-family: 'Mitr', sans-serif;
+}
+.footer_title{
+    padding-top: 50px;
+    width: 1300px;
+    margin-left: 380px;
+    margin-right: auto;
+    display: flex;
+}
+.footer-list{
+    display: inline-block;
+    margin-right: 135px;
+}
+.footer_contact{
+    height: 420px;
+    background-color: #d2f1f8;
+}
+.list-items{    
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+}
+.list-items a{
+    text-decoration: none;
+    color:#6c94af;
+    font-size: 14px;
+}
+.footer_offline{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+.text-offline{
+    padding-top: 20px;
+    margin-left: 500px;
+    line-height: 1.4px;
+}
+.text-offline h2{
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.text-offline h3{
+    font-size: 14px;
+    color: white;
+}
+a.footer-detail-brand{
+    line-height: 0.3px;
+}
+.footer_paybill{
+    text-align: center;
+}
+.footer_category{
+    text-align: center;
+    height: 20px;
+    margin-top: 0;
+    margin-right: 100px;
+}
+.category-item-link{
+    display: inline-block;
+}
+.category-item-link a{
+    text-decoration: none;
+    color:#6c94af;
+    font-size: 13px;
+}
+.footer_all_detail{
+    background-color: #d2f1f8;
+    text-align: center;
+}
+.footer_copyright h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer_copyright{
+    padding-bottom: 20px;
+}
+
+
+
+
